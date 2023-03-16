@@ -1,6 +1,6 @@
 import { Helpers } from "#src/Helpers.mjs"
 
-/** @type {function (): Promise<void>} */
+/** @returns {Promise<void>} */
 async function main() {
   console.log(Helpers.double(30))
 }
