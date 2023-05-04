@@ -12,9 +12,9 @@ export class Entity {
   step = 10
 
   /**
-   * 
-   * @param {string} name 
-   * @param {Position} position 
+   *
+   * @param {string} name
+   * @param {Position} position
    */
   constructor(name, position) {
     this.name = name
@@ -22,8 +22,8 @@ export class Entity {
   }
 
   /**
-   * 
-   * @param {string} direction 
+   *
+   * @param {string} direction
    * @returns {Position}
    */
   move(direction) {

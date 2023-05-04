@@ -6,9 +6,9 @@ export class Position {
   y
 
   /**
-   * 
-   * @param {number} x 
-   * @param {number} y 
+   *
+   * @param {number} x
+   * @param {number} y
    */
   constructor(x, y) {
     this.x = x
@@ -16,7 +16,7 @@ export class Position {
   }
 
   /**
-   * 
+   *
    * @returns {string}
    */
   serialize() {
