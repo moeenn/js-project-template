@@ -1,5 +1,6 @@
 import { defineConfig } from "vite"
 import path from "node:path"
+import process from "node:process"
 
 export default defineConfig({
   test: {
@@ -8,7 +9,7 @@ export default defineConfig({
   },  
   resolve: {
     alias: {
-      "#src": path.resolve(__dirname, "./src"),
+      "#src": path.resolve(process.cwd(), "./src"),
     },
   },
 })
