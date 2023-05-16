@@ -6,7 +6,7 @@ export class Position {
   y
 
   /**
-   *
+   * @constructor
    * @param {number} x
    * @param {number} y
    */
@@ -16,7 +16,7 @@ export class Position {
   }
 
   /**
-   *
+   * @public
    * @returns {string}
    */
   serialize() {

@@ -23,7 +23,7 @@ export class Entity {
 
   /**
    *
-   * @param {string} direction
+   * @param {Direction[keyof typeof Direction]} direction
    * @returns {Position}
    */
   move(direction) {
