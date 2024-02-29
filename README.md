@@ -1,25 +1,17 @@
 # Javascript sandbox
 
-A Javascript environment setup mainly aimed at NodeJS applications. Following tools are configured.
-- Absolute paths using NodeJS built-in methods
-- Automated testing using ```vitest```
-- Typechecking using ```jsdoc``` and ```tsc```
-- Code formatting using ```prettier```
-- Linting using ```eslint```
-
-
 ## Scripts
 
 ```bash
 # start the application
 $ npm start
 
-# run the tests
+# run the tests (using native NodeJS test runner)
 $ npm test
 
-# perform linting and type checking
+# perform linting (using Eslint) and type checking (using TSC)
 $ npm run check
 
-# format code
+# format code (using prettier)
 $ npm run fmt
 ```
